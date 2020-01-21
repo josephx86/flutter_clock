@@ -12,7 +12,7 @@ abstract class Hand extends StatelessWidget {
   /// Create a const clock [Hand].
   ///
   /// All of the parameters are required and must not be null.
-  const Hand({
+  const Hand({ 
     @required this.color,
     @required this.size,
     @required this.angleRadians,
@@ -21,7 +21,7 @@ abstract class Hand extends StatelessWidget {
         assert(angleRadians != null);
 
   /// Hand color.
-  final Color color;
+  final Color color; 
 
   /// Hand length, as a percentage of the smaller side of the clock's parent
   /// container.
